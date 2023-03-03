@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/latex-utils/img/favicon.ico">
+    
+    <link rel="stylesheet" href="/latex-utils/css/custom.css">
+    <title>Table Invert</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Table Invert</h1>
+            <hr>
+        </div>
+        <p>Enter your table environment in the textarea on the left. Your output will be displayed on the right.</p>
+        <p>Feel free to view an example file as to what sort of an input this converter is expecting. 
+            <a target="_blank" href="/latex-utils/examples/table.txt">Example</a></p>
+        <div class="ti-input-wrapper">
+            <textarea id="ta-input" class="ti-ta float-l w-47-5"></textarea>
+            <textarea id="ta-output" class="ti-ta float-r w-47-5" disabled></textarea>
+        </div>
+        <button class="mt-5" onclick="invert()">Invert</button>
+    </div>
+    <script src="/latex-utils/js/table-invert.js"></script>
+</body>
+</html>
